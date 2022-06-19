@@ -15,7 +15,7 @@ Pytorch0.4.1 codes for InsightFace
 
 ## 2. Pretrained Models & Performance
 
-[IR-SE50 @ BaiduNetdisk](https://pan.baidu.com/s/12BUjjwy1uUTEF9HCx5qvoQ), [IR-SE50 @ Onedrive](https://1drv.ms/u/s!AhMqVPD44cDOhkPsOU2S_HFpY9dC)
+[IR-SE50 @ BaiduNetdisk](https://pan.baidu.com/s/12BUjjwy1uUTEF9HCx5qvoQ), [IR-SE50 @ Onedrive](https://1drv.ms/u/s!AhMqVPD44cDOhkPsOU2S_HFpY9dC) [IR-SE50 @ Googledrive](https://drive.google.com/file/d/1wtLbpvn2_I_cKnqh1pyaHzYzUbaCFGTK/view?usp=sharing) 
 
 | LFW(%) | CFP-FF(%) | CFP-FP(%) | AgeDB-30(%) | calfw(%) | cplfw(%) | vgg2_fp(%) |
 | ------ | --------- | --------- | ----------- | -------- | -------- | ---------- |
@@ -94,6 +94,7 @@ faces_emore/
 
 - [IR-SE50 @ BaiduNetdisk](https://pan.baidu.com/s/12BUjjwy1uUTEF9HCx5qvoQ)
 - [IR-SE50 @ Onedrive](https://1drv.ms/u/s!AhMqVPD44cDOhkPsOU2S_HFpY9dC)
+- [IR-SE50 @ Googledrive](https://drive.google.com/file/d/1wtLbpvn2_I_cKnqh1pyaHzYzUbaCFGTK/view?usp=sharing) 
 - [Mobilefacenet @ BaiduNetDisk](https://pan.baidu.com/s/1hqNNkcAjQOSxUjofboN6qg)
 - [Mobilefacenet @ OneDrive](https://1drv.ms/u/s!AhMqVPD44cDOhkSMHodSH4rhfb5u)
 
@@ -153,9 +154,6 @@ python train.py -b [batch_size] -lr [learning rate] -e [epochs]
 
 ## 4. References 
 
-- This repo is mainly inspired by [deepinsight/insightface](https://github.com/deepinsight/insightface) and [InsightFace_TF](https://github.com/auroua/InsightFace_TF)
+- This repo is a clone from https://github.com/TreB1eN/InsightFace_Pytorch
 
-## PS
 
-- PRs are welcome, in case that I don't have the resource to train some large models like the 100 and 151 layers model
-- Email : treb1en@qq.com
